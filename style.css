@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    width: 95%;
+    margin: 0 auto;
+}
+h1 {
+    font-family: Kunstler Script;
+    font-size: 4em;
+    text-transform: capitalize;
+}
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: normal;
+    font-style: italic;
+    margin: 1em 0;
+}
+img {
+    display: block;
+    width: 98%;
+    margin: 0 auto 2em auto;
+}
+ul {
+    height: 100%;
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+p {
+    margin: 1.5em .5em;
+}
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 1.75em;
+    text-align: left;
+    height: 20%;
+    padding-left: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+.section-upper {
+    margin: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    height: 40%;
+    width: 95%;
+    border-top: .2em solid black;
+    justify-content: flex-start;
+}
+.article-left {
+    width: 25%;
+    border-right: .15em solid lightgray;
+    border-left: .15em solid lightgray;
+}
+.article-main {
+    width: 50%;
+}
+.article-right {
+    width: 25%;
+    border-right: .15em solid lightgray;
+    border-left: .15em solid lightgray;
+}
+.section-bottom {
+    margin: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    height: 40%;
+    width: 95%;
+    border-top: .2em solid black;
+    border-bottom: .2em solid black;
+    justify-content:  flex-start;
+}
+.navigation-main {
+    width: 75%;
+    border-right: .15em solid lightgray;
+}
+.technology {
+    background-color: lightskyblue;
+}
+.politics {
+    background-color: khaki;
+}
+.local {
+    background-color: aquamarine;
+}
+.opinion {
+    background-color: cornflowerblue;
+}
+.sports {
+    background-color: darkslateblue;
+}
